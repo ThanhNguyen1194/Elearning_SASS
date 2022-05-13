@@ -1,0 +1,7 @@
+footer{
+    @include styleText($color-gray-0,$fsize-1,$fw-0);
+    .footer__top{
+        width: 90%;
+        margin: $mg-4;
+    }
+}

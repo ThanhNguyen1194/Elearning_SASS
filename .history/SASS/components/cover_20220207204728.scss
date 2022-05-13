@@ -1,0 +1,9 @@
+.cover{
+    position: relative;
+    background-image: url(../../img/cover.jpg);
+    @extend .backgroundImg;
+    .cover__content{
+        position: absolute;
+        width: 50%;
+    }
+}

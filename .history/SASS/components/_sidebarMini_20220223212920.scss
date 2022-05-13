@@ -1,0 +1,14 @@
+.sidebarMini{
+    width: 400px;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    z-index: 2;
+    background-color: $color-gray-5;
+    .sidebarMini__button{
+        @include styleButton($color-black-0,$color-gray-5,$color-black-0,$fsize-5,$fw-0,$pd-2,$pd-3);
+        border-radius: 8px 0 0 8px;
+        position: fixed;
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,19 @@
+.card{
+    height: 330px;
+    .card-body{
+        .card-title{
+            @include styleText($color-black-0,$fsize-0,$fw-1);
+        }
+        .card-text{
+            @include styleText($color-gray-0,$fsize-1 - 1,$fw-0);
+        }
+        .card__stars{
+            i{
+                @include styleText($color-yellow-0,$fsize-1 - 1,$fw-3)
+            }
+            .card__rate{
+                @include styleText($color-gray-0,$fsize-1 - 1,$fw-0);
+            }
+        }
+    }
+}

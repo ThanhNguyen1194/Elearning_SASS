@@ -1,0 +1,13 @@
+.courses{
+    margin: $mg-1 0;
+    .course__content{
+        width: 90%;
+        margin: 0 auto;
+        .course__left{
+            background-color: $color-gray-1;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

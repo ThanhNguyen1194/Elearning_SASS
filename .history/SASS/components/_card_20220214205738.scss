@@ -1,0 +1,8 @@
+.card{
+    height: 275px;
+    .card-body{
+        .card-title{
+            @include styleText($color-black-0,$fsize-0,$fw-1);
+        }
+    }
+}

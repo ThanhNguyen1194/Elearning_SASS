@@ -1,0 +1,9 @@
+
+.darkMode{
+    .button--white{
+        @include styleButton($color-gray-0,$color-white-0,$color-black-light,$fsize-0,$fw-1,$pd-0 + 1, $pd-0 + 2);
+        &:hover{
+            @include hoverButton($color-black-0,transparent,$color-black-0);
+        }
+    }
+}

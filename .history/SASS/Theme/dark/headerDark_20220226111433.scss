@@ -1,0 +1,15 @@
+.darkMode{
+    .myNavbar{
+        background-color: $color-dark-4;
+        .myNavbar__left{
+                .navbar-brand{
+                    .logo-black{
+
+                    }
+                    .logo-white{
+                        display: inline-block;
+                    }
+                }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.darkMode{
+    footer{
+        .footer__top{
+
+            ul{
+                .nav-item{
+                    .nav-link{
+                        color: $color-dark-5;
+                    }
+                }
+            }
+       .btn-group{
+        .dropdown-menu{
+            font-size: $fsize-1;
+        }
+       }
+        }
+        hr{
+            background-color: $color-dark-2;
+        }
+    }
+}

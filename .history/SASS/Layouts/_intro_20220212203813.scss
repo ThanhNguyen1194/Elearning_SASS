@@ -1,0 +1,11 @@
+.intro{
+    background: linear-gradient(-45deg,$color-red-0,$color-purple-0);
+    padding: $pd-3 0;
+    .intro__content{
+        width: 80%;
+        margin: 0 auto;
+        .intro__icon{
+            font-size: 50px;
+        }
+    }
+}

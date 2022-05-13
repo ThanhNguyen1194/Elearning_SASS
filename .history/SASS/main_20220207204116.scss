@@ -1,0 +1,17 @@
+@import './Helpers/variables';
+@import './Helpers/mixin';
+
+//Vendors
+
+@import './base/reset';
+@import './base/customize';
+
+@import './Layouts/header';
+@import './Layouts/footer';
+
+@import './components/button';
+@import './components/cover.scss'
+
+@import './Pages/home';
+
+//Theme

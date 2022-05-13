@@ -1,0 +1,14 @@
+.jobs{
+    background-color: $color-gray-7;
+    .jobs__content{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        .row{
+            padding: $pd-0;
+        }
+        .jobs__items{
+            max-width: 400px;
+        }
+    }
+}

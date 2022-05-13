@@ -1,0 +1,13 @@
+.darkMode{
+    .categories{
+        .categories__content{
+            h2{
+                color: $color-dark-5;
+            }
+            .categories__items{
+                background-color: $color-dark-6;
+                border: 1px solid $color-dark-2;
+            }
+        }
+    }
+}
